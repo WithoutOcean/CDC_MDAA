@@ -1,0 +1,21 @@
+# CDC_MDAA
+
+A cross-channel dense connection and multi-scale dual aggregated attention network for Hyperspectral image classification
+
+Abstract: Hyperspectral image classification (HSIC) is one of the most important research directions in the field of hyperspectral images (HSIs). However, it is very difficult to label HSIs data, which makes the label samples of hyperspectral data sets scarce. As a result, achieving efficient classification in small sample scenarios remains a major challenge for HSIC. To that end, in this paper, a dual-branch network, which combines cross-channel dense connection and multi-scale dual aggregated attention (CDC_MDAA), is proposed. On the spatial branch, a cross-channel dense connections (CDC) module is proposed. CDC effectively combines cross-channel convolution with dense connections to extract the depth spatial features of HSI. Then, a spatial multi-scale dual aggregated attention module (SPA_MDAA) is designed. SPA_MDAA uses dual autocorrelation for attention modeling to strengthen the differences between features and enhance the ability to pay attention to important features. On the spectral branch, a spectral multi-scale dual aggregated attention module (SPE_MDAA) is constructed to capture important spectral features. Finally, the spatial spectral features are fused and the classification results are obtained through the full connection layer. The experimental results show that the classification performance of the proposed method is better than some state-of-the-art methods in small samples.
+
+Environment: 
+Python 3.7
+PyTorch 1.10
+
+How to use it?
+---------------------
+Here an example experiment is given by using **Indian Pines hyperspectral data**. Here is an example experiment using hyperspectral data of Indian pine trees. Please note that due to the randomness of parameter initialization, the experimental results may differ slightly from the results reported in the paper.
+
+If you want to run the code in your own data, you can accordingly change the input (e.g., data, labels) and tune the parameters. For more details, please refer to the paper.
+
+If you encounter the bugs while using this code, please do not hesitate to contact us.
+
+If this work is helpful to you, please cite our paper: Wu, Haiyang, Cuiping Shi, Liguo Wang, and Zhan Jin. 2023. "A Cross-Channel Dense Connection and Multi-Scale Dual Aggregated Attention Network for Hyperspectral Image Classification" Remote Sensing 15, no. 9: 2367. https://doi.org/10.3390/rs15092367
+
+If emergency, you can also add my email: 17398893383@163.com or QQ: 1752436056.
